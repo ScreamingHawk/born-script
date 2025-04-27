@@ -1,6 +1,6 @@
-<h1 align=center> 1969 </h1>
+<h1 align=center>Born Script</h1>
 
-<p align=center> Make your GitHub history back to 1969. <br /> (1970 actually, but in boorgarland it shows as 1969 because of the time difference) </p>
+<p align=center>Make your GitHub history go back to the day you were born.</p>
 
 ![image](https://user-images.githubusercontent.com/31113245/204480442-2f858f25-9683-4c7c-8a4a-d82d0843f867.png)
 
@@ -9,7 +9,7 @@
 Run the following script and follow the prompts
 
 ```bash
-sh -c "$(curl -fsSL https://raw.github.com/PickleNik/1969-script/master/index.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ScreamingHawk/born-script/master/index.sh)"
 ```
 
 **Step 0:** [Create a new repo](https://github.com/new) on GitHub.
