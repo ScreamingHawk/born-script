@@ -26,8 +26,8 @@ _() {
               [ -z "$USERNAME" ] && exit 1
               echo
               echo "\tStep 4: Please enter the name of the repo you created in Step 0: "
-              read -r USERNAME
-              [ -z "$USERNAME" ] && exit 1
+              read -r REPONAME
+              [ -z "$REPONAME" ] && exit 1
               break
               ;;
           "SSH")
