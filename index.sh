@@ -44,7 +44,11 @@ while true; do
 done
 
 echo
-echo "Step 3: Enter the date for your contribution (YYYY-MM-DD): "
+if [ -z "$REPONAME" ]; then
+  echo "Step 3: Enter the date for your contribution (YYYY-MM-DD): "
+else
+  echo "Step 5: Enter the date for your contribution (YYYY-MM-DD): "
+fi
 read -r CONTRIBUTION_DATE
 # Validate date format
 if ! date -d "$CONTRIBUTION_DATE" >/dev/null 2>&1; then
